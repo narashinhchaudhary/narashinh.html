@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested table</title>
+</head>
+<body>
+    nested table
+    <table border="2" style="width: 100%;">
+        <tr>
+            <th>header column 1</th>
+            <th>header column 2</th>
+            <th>header column 3</th>
+            <th>header column 4</th>
+        </tr>
+        <tr>
+            <td>row2-item 1</td>
+            <td>row2-item 2</td>
+            <td rowspan="2"><table border="1">row 2 nested table 1
+                <tr>
+                    <th>row header1</th>
+                <td>item</td>
+            </tr>
+<tr>
+<th>row header 2</th>
+<td>item</td>
+</tr>
+<tr>
+    <th>row header3</th>
+    <td>item</td>
+</tr>
+            </table></td>
+            <td>row2-item 4</td>
+        </tr>
+        <tr>
+            <td><table border="1"> row 3- nested table 2
+                <td>row header 1</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>row header 2</td>
+            <td>item</td>
+        </tr>
+        </table>
+    </td>
+    <td>row 3- item2</td>
+    <td rowspan="2">row 3- item3</td>
+</tr>
+<tr>
+    <td>row 4-item1</td>
+    <td>row 4-item2</td>
+    <td>row 4-item3</td>
+</tr>
+<tr>
+    <td colspan="4">last row of outer table</td>
+</tr>
+    </table>
+</body>
+</html>

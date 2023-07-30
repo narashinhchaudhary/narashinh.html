@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title> form using table</title>
+    <style>
+        table{
+            border-spacing: 4px;
+        }
+    </style>
+</head>
+<body>
+    <table border="2" bgcolor="orange">
+        <caption>STUDENT REGISTRATION FORM</caption>
+        <form action="" method="post">
+            <tr>
+                <td><label for="">FIRST NAME</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="" >LAST NAME</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="">DATE OF BIRTH</label></td>
+                <td><input type="date" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">EMAIL ID</label></td>
+                <td><input type="email" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">MOBILE NUMBER</label></td>
+                <td><input type="tel" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">GENDER</label></td>
+                <td><input type="radio" name="gender" id="">male <input type="radio" name="gender" id="">female</td>
+            </tr>
+            <tr>
+                <td><label for="">ADDRESS</label></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">CITY</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">VILLAGE</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">PIN CODE</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">STATE</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">COUNTRY</label></td>
+                <td><select name="" id=""><option value="india" selected>india</option><option value="nepal">nepal</option></select></td>
+            </tr>
+            <tr>
+                <td><label for="">HOBBIES</label></td>
+                <td> drawing<input type="checkbox" name="" id="">singing <input type="checkbox" name="" id="">dancing <input type="checkbox" name="" id="">sketching <input type="checkbox" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">QUALIFICATION</label></td>
+                <!-- second table start -->
+                <td><table bgcolor="blue">
+                    <tr>
+                        <td>SI.NO.</td>
+                        <td>Examination</td>
+                        <td>Board</td>
+                        <td>Percentage</td>
+                        <td>Year of passing</td>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><label for="">class X</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><label for="">class XII</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td><label for="">Graduation</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>                   
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td><label for="">masters</label></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table></td>
+                <!-- second table end -->
+            </tr>
+            <tr>
+                <td><label for="">COURSES APPLIED FOR</label></td>
+                <td><input type="radio" name="abc" id="BCA">BCA <input type="radio" name="abc" id="B.COM">B.COM <input type="radio" name="abc" id="B.Sc">B.Sc <input type="radio" name="abc" id="B.A">B.A</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit"><input type="reset" value="reset"></td>
+            </tr>
+        </form>
+        <!--main table end -->
+    </table> 
+</body>
+</html>

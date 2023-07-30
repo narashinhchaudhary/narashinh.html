@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            border: 5px solid rgb(213, 16, 16);
+            border-radius: 10px;
+            background: #efe5f0;
+            font: 1em sans-serif;
+            }
+        thead,tfoot{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table
+     border="5px" width=100%;>
+        <thead>
+            <tr>
+                <th colspan="3">purchase order;6652 </th>
+                <th>recive date-10th oct</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">vendor;abcxyzltd. <br> dummy street,delhi</td>
+                <td>ship to;<br>ms doni <br>wilson garden <br>ranchi-834001</td>
+            </tr>
+            <tr><th>qty.</th>
+                <th>item code.</th>
+                <th>description</th>
+                <th>unit price</th>
+            </tr>
+                 <tr><td>100</td>
+                 <td>labcde</td>
+                 <td>pensil</td>
+                 <td>20.00</td>
+            </tr>
+            <tr>
+                 <td>1000</td>
+                 <td>IN0877</td>
+                 <td>notebooks</td>
+                 <td>100.00</td>
+            </tr>
+            <tr>
+                 <td>500</td>
+                 <td>IP8675</td>
+                 <td>pens</td>
+                 <td>70.00</td>
+             </tr>
+             <tr>
+                 <td colspan="3">subtotal</td>
+                 <td>190.00</td>
+             </tr>
+             <tr>
+                 <td colspan="2">GST</td>
+                 <td>5%</td>
+                 <td>9.50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="3">grand total</th>
+            <th>$199.50</th>
+        </tfoot>
+    </table>
+
+</body>
+</html>
